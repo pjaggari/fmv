@@ -20,7 +20,7 @@ public class FmvApp implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) {
-		marketDataService.fetchAndPrintData();
+		marketDataService.updateMarketData();
 	}
 
 }
